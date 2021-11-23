@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="css/aspect-elements.css" rel="stylesheet"/>
+    <link href="css/aspect-style.css" rel="stylesheet"/>
+</head>
+<body id="root-container" style="margin: 0;">
+
+
+<div data-element-behavior="menu" id="nav-id-19-" data-element-type="section">
+    <div id="container-id-20-" data-element-type="container"><a id="button-id-24-" data-element-type="button"><span
+            id="element-id-0-">Burn.Fish</span></a><a id="button-id-26-" data-element-type="button"><span
+            id="element-id-25-">GitHub</span></a></div>
+</div>
+<div class="container" id="vue-burner">
+    <main class="main">
+        <div id="container-id-1-" data-element-type="section">
+            <div id="container-id-8-" data-element-type="container">
+                <div id="container-id-0-" data-element-type="container"><p id="text-id-1-"
+                                                                           data-element-type="text"><span
+                        id="element-id-1-">Burn the right way</span></p>
+                    <p id="text-id-2-" data-element-type="text"><span id="element-id-2-">The most&nbsp;(un)necessary Crypto project</span>
+                    </p></div>
+                <div id="container-id-18-" data-element-type="container" v-if="connected == false">
+                    <button id="button-id-4-" data-element-type="button" @click="connect()">
+                        <span id="element-id-5-">Connect to your wallet</span>
+                    </button>
+                    <p id="text-id-17-" data-element-type="text"></p></div>
+            </div>
+        </div>
+        <div id="container-id-10-" data-element-type="section">
+            <div id="container-id-2-" data-element-type="container">
+                <div id="container-id-3-" data-element-type="container">
+                    <div id="container-id-4-" data-element-type="container"><p id="text-id-5-" data-element-type="text">
+                        <span id="element-id-6-">Burn your coins</span></p>
+                        <p id="text-id-6-" data-element-type="text"></p></div>
+                    <input id="input-id-3-" data-element-type="input" placeholder="Ethereum" data-name="ethBurnValue"
+                           v-model="ethBurnValue">
+                    <button id="button-id-15-" data-element-type="button" @click="burnCoins()">
+                        <span id="element-id-14-">Burn coins</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="container-id-14-" data-element-type="section">
+            <div id="container-id-42-" data-element-type="container">
+                <div id="container-id-45-" data-element-type="container">
+                    <div id="container-id-46-" data-element-type="container"><p id="text-id-47-"
+                                                                                data-element-type="text">
+                        <span id="element-id-7-">how it works</span></p>
+                        <p id="text-id-48-" data-element-type="text">The best and right way to burn <span
+                                id="element-id-8-">ETH</span> is to create a <span id="element-id-9-">contract</span>
+                            which
+                            immediately <span id="element-id-10-">self destructs</span> and <span
+                                    id="element-id-15-">sends</span> ethers to its <span
+                                    id="element-id-16-">own address</span>.&nbsp;<br>As a result, the contract is
+                            deleted and ETH vanishes!</p></div>
+                </div>
+                <a id="image-id-43-" data-element-type="image"><img id="element-id-44-" src="img/-project-image-4.png"></a>
+            </div>
+        </div>
+        <div id="section-id-30-" data-element-type="section">
+            <div id="container-id-5-" data-element-type="container">
+                <div id="container-id-6-" data-element-type="container">
+                    <div id="container-id-7-" data-element-type="container"><p id="text-id-8-" data-element-type="text">
+                        Burn.Fish</p>
+                        <div id="container-id-9-" data-element-type="container"><a id="button-id-10-"
+                                                                                   data-element-type="button"><span
+                                id="element-id-11-">Blog</span></a><a id="button-id-5-" data-element-type="button"><span
+                                id="element-id-3-">GitHub</span></a></div>
+                    </div>
+                    <div id="container-id-15-" data-element-type="container">
+                        <div id="container-id-17-" data-element-type="container"></div>
+                    </div>
+                    <div id="container-id-22-" data-element-type="container"><p id="text-id-23-"
+                                                                                data-element-type="text">
+                        Contact</p>
+                        <div id="container-id-24-" data-element-type="container"><a id="button-id-13-"
+                                                                                    data-element-type="button"><span
+                                id="element-id-12-">Twitter</span></a><a id="button-id-14-"
+                                                                         data-element-type="button"><span
+                                id="element-id-13-">Disclaimer</span></a><a id="button-id-18-"
+                                                                            data-element-type="button"><span
+                                id="element-id-17-"></span></a></div>
+                    </div>
+                </div>
+                <p id="text-id-29-" data-element-type="text">@Burn.Fish 2021  -  USE AT YOUR OWN RISK</p>
+
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="application/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script type="text/javascript" src="javascripts/coinburn-opt.js"></script>
+
+</body>
+</html>

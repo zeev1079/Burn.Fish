@@ -1,0 +1,7 @@
+.idea*/*
+.bsp*/*
+project/project/*
+project/target/*
+root/*
+build/*
+target

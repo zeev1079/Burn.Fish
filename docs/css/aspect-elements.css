@@ -1,0 +1,185 @@
+*[data-element-type],
+*[data-element-type='dropdown'] > * {
+    /* treat padding as part of width */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*[data-element-type='button'],
+*[data-element-type='container'],
+*[data-element-type='section'] {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+*[data-element-type='text'],
+*[data-element-type='link'],
+*[data-element-type='button'],
+*[data-element-type='input'] {
+    font-family: arial;
+}
+
+/* CONTAINER */
+
+*[data-element-type='container'] {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+*[data-element-type='container'] > *:last-child {
+    margin-right: '0 !important';
+}
+
+*[data-element-type='container'] > * {
+    max-width: 100%;
+}
+
+/* SECTION */
+
+*[data-element-type='section'] {
+    display: flex;
+}
+
+*[data-element-type='section'] > * {
+    position: static;
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+/* INPUT */
+
+*[data-element-type='input'] {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    /* removes unwanted inner shadow on mobile */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* IMAGE */
+
+*[data-element-type='image'] {
+    line-height: 0 !important;
+    overflow: hidden;
+}
+
+*[data-element-type='image'] > * {
+    max-width: 100%;
+}
+
+/* TEXT */
+
+*[data-element-type='text'] {
+    height: auto;
+    word-break: break-word;
+    margin: unset;
+}
+
+/* BUTTON */
+
+*[data-element-type='button'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: unset;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* DROPDOWN */
+
+*[data-element-type='dropdown'] {
+    display: none;
+    position: absolute;
+}
+
+*[data-element-type='dropdown'] > * {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07);
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+/* LINK */
+
+*[data-element-type='link'] {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+*[data-element-type='text'] *[data-element-type='link'] {
+    font-family: inherit;
+}
+
+*[data-element-type='dropdown'] *[data-element-type='link'] {
+    display: block;
+}
+
+*[data-element-type='button'],
+*[data-element-type='button']:visited,
+*[data-element-type='button']:hover,
+*[data-element-type='button']:active,
+*[data-element-type='link'],
+*[data-element-type='link']:visited,
+*[data-element-type='link']:hover,
+*[data-element-type='link']:active {
+    color: inherit;
+}
+
+*[data-element-type='button'] {
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#content-container {
+    width: 100%;
+}
+
+/* FORM */
+
+*[data-element-behavior='form'].submitted-form > * {
+    position: relative;
+}
+
+*[data-element-behavior='form'].submitted-form > form > * {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+*[data-element-behavior='form'].submitted-form > form::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Sent';
+    font-weight: 500;
+    background-color: white;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
