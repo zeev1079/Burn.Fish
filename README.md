@@ -29,12 +29,12 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#Demo">Demo</a></li>
+    <li><a href="#demo">Demo</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license-&-Disclaimer">License</a></li>
+    <li><a href="#license-and-Disclaimer">License and Disclaimer</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">References</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -67,6 +67,7 @@ By using a self-destructed contract (Burn.Fish), the ETH vanishes completely whe
 ## Demo
 
 [![IMAGE ALT TEXT](docs/img/BurnFishDemoScreenShot.png)](https://vimeo.com/651384884/ee23bfbda3 "Demo - Burn.Fish")
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -95,7 +96,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License & Disclaimer
+## License and Disclaimer
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
