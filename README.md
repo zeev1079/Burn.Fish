@@ -116,7 +116,10 @@ Twitter - [@BurnFishEth](https://twitter.com/BurnFishETH)
 <!-- ACKNOWLEDGMENTS -->
 ## References
 
-Whale image was taken from <a href="https://pixabay.com/illustrations/blue-whale-animal-water-nature-3158626/">pixabay</a> created/published by <a href="https://pixabay.com/users/torulus-7457760/">@Torulus</a>
+The current whale artwork on the site is an original image. It was inspired by an
+earlier whale illustration from <a href="https://pixabay.com/illustrations/blue-whale-animal-water-nature-3158626/">pixabay</a>
+created/published by <a href="https://pixabay.com/users/torulus-7457760/">@Torulus</a>,
+which was used in earlier versions of the site.
 
 Please reach out if the image should be removed for any reason.
 
