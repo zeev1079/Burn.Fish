@@ -848,6 +848,10 @@
 
 #container-id-1- {
     background-image: url("../img/-project-image-0.png");
+    background-image: image-set(
+        url("../img/-project-image-0.webp") type("image/webp"),
+        url("../img/-project-image-0.png") type("image/png")
+    );
 }
 
 @media (min-width: 1025px) {

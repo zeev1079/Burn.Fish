@@ -1,0 +1,17 @@
+{
+  "name": "Burn.Fish – Burn ETH the right way",
+  "short_name": "Burn.Fish",
+  "description": "Provably burn Ethereum (ETH) using a self-destructing smart contract.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "en",
+  "icons": [
+    { "src": "img/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
